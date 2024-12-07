@@ -1,0 +1,82 @@
+﻿/* Floating Icon Styles */
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2CB5E5;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+    .chatbot-icon:hover {
+        transform: scale(1.1);
+    }
+
+/* Chatbox Styles */
+.chatbox {
+    position: fixed;
+    bottom: 80px; /* Slightly above the floating icon */
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease, opacity 0.3s ease;
+    z-index: 999; /* Keep above most content */
+}
+
+.chatbox-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.chatbox input,
+.chatbox textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.chatbox textarea {
+    height: 100px; /* Fixed height for textarea */
+}
+
+.chatbox button {
+    background-color: #2CB5E5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+    .chatbox button:hover {
+        transform: scale(1.1);
+    }
+
+/* Make the chatbox visible when clicked */
+.chatbox.show {
+    height: 400px; /* Adjust height to fit new fields */
+    opacity: 1;
+}
+
+/* Ensure everything stays in place during scrolling */
+.chatbox,
+.chatbot-icon {
+    will-change: transform;
+}

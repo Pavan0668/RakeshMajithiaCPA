@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> Rakesh Majithia - Business Consulting Bootstrap4 Responsive Template </title>
+    <!-- Bootstrap core CSS -->
+    <link href="../Content/Website-Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome CSS -->
+    <link href="../Content/Website-Content/css/all.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="../Content/Website-Content/css/owl.carousel.min.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="../Content/Website-Content/css/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../Content/Website-Content/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Content/Website-Content/css/Chatstyles.css">
+    <link rel="stylesheet" href="../Content/Website-Content/css/FileUpload.css">
+
+
+    <style>
+        /* Main container to center the content */
+        .form-container {
+            width: 80%;
+            margin: 0 auto; /* Center the container */
+            text-align: center; /* Center the content inside */
+            padding: 20px;
+            background-color: #f9f9f9; /* Light background */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+            border-radius: 10px;
+            max-width: 800px;
+        }
+
+        /* Service title */
+        .service-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Service section */
+        .service-item {
+            margin-bottom: 40px; /* Space between service blocks */
+        }
+
+        /* Button styling */
+        .form-button {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 10px;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+        }
+
+            .form-button:hover {
+                background-color: #0056b3; /* Darker blue on hover */
+            }
+
+        /* Flex container for the two buttons */
+        .button-container {
+            display: flex;
+            justify-content: center; /* Center the buttons */
+        }
+    </style>
+</head>
+<body>
+                       <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="social-media">
+                    <ul>
+                        <li><a href="https://www.facebook.com/RMCPAPC" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/RAKESHCATax" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://g.co/kgs/SXpuK84" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/1629667/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/rmcpapc/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-details">
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone" style="transform: scaleX(1);"></i>
+                            <a href="tel:+19058158442" style="text-decoration: none; color: inherit;">905-815-8442</a>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;
+                            <a href="https://www.google.com/maps/place/5805+Whittle+Rd+Unit+112,+Mississauga,+ON+L4Z+2J1,+Canada/%4043.6243472,-79.6737356,17z/data=!4m10!1m2!2m1!1s112-5805+Whittle+Road,+Mississauga+ON+L4Z+2J1.++905-815-8442!3m6!1s0x882b40a192e15b93:0xa06f1d9189338cf5!8m2!3d43.6243433!4d-79.6711607!15sCjwxMTItNTgwNSBXaGl0dGxlIFJvYWQsIE1pc3Npc3NhdWdhIE9OIEw0WiAySjEuICA5MDUtODE1LTg0NDKSAQpzdWJwcmVtaXNl4AEA!16s%2Fg%2F11rxxv9dmw?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration:none; color:inherit;">
+                                112-5805 Whittle Road, Mississauga ON L4Z 2J1
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
+    <div class="container">
+        <a class="navbar-brand" href="Index.html">
+            <img src="../Content/Website-Content/images/logo-light1.png" alt="logo" style="height: 80px; width:315PX;" />
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["controller"].ToString() == "Home" ? "active" : "")" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "About" ? "active" : "")" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Services" ? "active" : "")" href="services.html">Services</a>
+                </li>
+
+                <!--<li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <i class="fas fa-sort-down"></i></a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Portfolio_3_Col" ? "active" : "")" href="@Url.Action("Portfolio_3_Col", "Home")">3 Column Portfolio</a>-->
+                <!-- @*<a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Portfolio_4_Col" ? "active" : "")" href="@Url.Action("Portfolio_4_Col", "Home")">4 Column Portfolio</a>
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "PortfolioItem" ? "active" : "")" href="@Url.Action("PortfolioItem", "Home")">Single Portfolio Item</a>*@ -->
+                <!--</div>
+                </li>-->
+                <!-- @*<li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fas fa-sort-down"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Blog" ? "active" : "")" href="@Url.Action("Blog", "Home")">Blog</a>
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "BlogPost" ? "active" : "")" href="@Url.Action("BlogPost", "Home")">Blog Post</a>
+                    </div>
+                    </li>*@ -->
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Blog" ? "active" : "")" href="Blog.html">Insight</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Contact" ? "active" : "")" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "FillOnline" ? "active" : "")" href="Form.html">Forms</a>
+                </li>
+                <!-- @*<li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login <i class="fas fa-sort-down"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLogin">
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "CorpLogin" ? "active" : "")" href="@Url.Action("Index", "Login")">Corp Login</a>
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "ClientLogin" ? "active" : "")" href="@Url.Action("ClientLogin", "Login")">Client Login</a>
+                        </div>
+                    </li>*@ -->
+                <!-- @*@if (Session["Username"] != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Welcome, @Session["Username"]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Login <i class="fas fa-sort-down"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLogin">
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "CorpLogin" ? "active" : "")" href="@Url.Action("Index", "Login")">Corp Login</a>
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "ClientLogin" ? "active" : "")" href="@Url.Action("ClientLogin", "Login")">Client Login</a>
+                        </div>
+                    </li>
+                }*@
+            </ul> -->
+        </div>
+    </div>
+</nav>
+    <div class="wrapper-main">
+
+        <!-- Add Font Awesome Library -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+        <div class="services-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1200px; margin: auto; padding: 20px; background-color: #f4f6f8; border-radius: 10px;">
+            <!-- Service: Audit Client Assistance -->
+            <div class="service-card" style="background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; transition: transform 0.2s;">
+                <i class="fas fa-file-alt" style="font-size: 2rem; color: #007bff; margin-bottom: 10px;"></i>
+                <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;">Audit Client Assistance</h3>
+                <p style="font-size: 0.9rem; color: #6c757d; margin-bottom: 20px;">Download or fill the form online to assist with your audit process.</p>
+                <div style="display: flex; justify-content: space-between; gap: 10px;">
+                    <a href="../Content/Website-Content/Document/Audit_Client Assistance Schedule - 23-2024.pdf" target="_blank" style="flex: 1; text-align: center; padding: 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 0.9rem;">Download</a>
+                    <button onclick="openFormModal('Audit Client Assistance')" style="flex: 1; text-align: center; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 0.9rem; cursor: pointer;">Fill Online</button>
+                </div>
+                <input type="file" id="AccountingFile" name="filename" style="margin-top: 10px; width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+
+            <!-- Service: Corporate Tax -->
+            <div class="service-card" style="background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; transition: transform 0.2s;">
+                <i class="fas fa-balance-scale" style="font-size: 2rem; color: #007bff; margin-bottom: 10px;"></i>
+                <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;">Corporate Tax</h3>
+                <p style="font-size: 0.9rem; color: #6c757d; margin-bottom: 20px;">Access important forms for corporate tax filing and assistance.</p>
+                <div style="display: flex; justify-content: space-between; gap: 10px;">
+                    <a href="../Content/Website-Content/Document/Corporate Tax YE Checklist.pdf" target="_blank" style="flex: 1; text-align: center; padding: 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 0.9rem;">Download</a>
+                    <button onclick="openFormModal('Corporate Tax')" style="flex: 1; text-align: center; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 0.9rem; cursor: pointer;">Fill Online</button>
+                </div>
+                <input type="file" id="CorporateFile" name="filename" style="margin-top: 10px; width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+
+            <!-- Service: Personal Tax -->
+            <div class="service-card" style="background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; transition: transform 0.2s;">
+                <i class="fas fa-user-tie" style="font-size: 2rem; color: #007bff; margin-bottom: 10px;"></i>
+                <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;">Personal Tax</h3>
+                <p style="font-size: 0.9rem; color: #6c757d; margin-bottom: 20px;">Simplify your personal tax filing with our easy-to-access forms.</p>
+                <div style="display: flex; justify-content: space-between; gap: 10px;">
+                    <a href="../Content/Website-Content/Document/Perosnal Tax Checklist.pdf" target="_blank" style="flex: 1; text-align: center; padding: 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 0.9rem;">Download</a>
+                    <button onclick="openFormModal('Personal Tax')" style="flex: 1; text-align: center; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 0.9rem; cursor: pointer;">Fill Online</button>
+                </div>
+                <input type="file" id="PersonalFile" name="filename" style="margin-top: 10px; width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="formModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1000; justify-content: center; align-items: center;">
+            <div style="background: #fff; padding: 20px; border-radius: 10px; width: 90%; max-width: 400px; text-align: center;">
+                <h3 id="formTitle" style="margin-bottom: 20px; font-size: 1.5rem; font-weight: 600;">Form Title</h3>
+                <form>
+                    <textarea placeholder="Enter details..." style="width: 100%; height: 100px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+                    <button type="submit" style="width: 100%; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 1rem;">Submit</button>
+                </form>
+                <button onclick="closeFormModal()" style="margin-top: 10px; padding: 10px; background-color: #dc3545; color: white; border: none; border-radius: 5px; cursor: pointer;">Close</button>
+            </div>
+        </div>
+
+        <script>
+            function openFormModal(serviceName) {
+                document.getElementById('formTitle').innerText = serviceName + ' - Fill Online Form';
+                document.getElementById('formModal').style.display = 'flex';
+            }
+
+            function closeFormModal() {
+                document.getElementById('formModal').style.display = 'none';
+            }
+        </script>
+
+        <div class="services-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1200px; margin: auto; padding: 20px; background-color: #f4f6f8; border-radius: 10px;">
+            <!-- Service: Assurance Services -->
+            <div class="service-card" style="background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; transition: transform 0.2s;">
+                <i class="fas fa-shield-alt" style="font-size: 2.5rem; color: #007bff; margin-bottom: 15px;"></i>
+                <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;">Assurance Services</h3>
+                <p style="font-size: 0.9rem; color: #6c757d; margin-bottom: 20px;">Ensure compliance and reliability with our assurance services. Access forms and documents with ease.</p>
+                <div style="display: flex; justify-content: space-between; gap: 10px;">
+                    <a href="../Content/Website-Content/Document/Audit_Client Assistance Schedule - 23-2024.pdf" target="_blank" style="flex: 1; text-align: center; padding: 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 0.9rem;">Download</a>
+                    <button onclick="openFormModal('Audit Client Assistance')" style="flex: 1; text-align: center; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 0.9rem; cursor: pointer;">Fill Online</button>
+                </div>
+                <input type="file" id="AccountingFile" name="filename" style="margin-top: 10px; width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+
+            <!-- Service: Accounting & Bookkeeping -->
+            <div class="service-card" style="background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; transition: transform 0.2s;">
+                <i class="fas fa-calculator" style="font-size: 2.5rem; color: #007bff; margin-bottom: 15px;"></i>
+                <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;">Accounting & Bookkeeping</h3>
+                <p style="font-size: 0.9rem; color: #6c757d; margin-bottom: 20px;">Stay organized with reliable accounting and bookkeeping services. Download essential documents.</p>
+                <div style="display: flex; justify-content: space-between; gap: 10px;">
+                    <a href="../Content/Website-Content/Document/Corporate Tax YE Checklist.pdf" target="_blank" style="flex: 1; text-align: center; padding: 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 0.9rem;">Download</a>
+                    <button onclick="openFormModal('Corporate Tax')" style="flex: 1; text-align: center; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 0.9rem; cursor: pointer;">Fill Online</button>
+                </div>
+                <input type="file" id="CorporateFile" name="filename" style="margin-top: 10px; width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+
+            <!-- Service: Payroll Management -->
+            <div class="service-card" style="background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; transition: transform 0.2s;">
+                <i class="fas fa-money-check-alt" style="font-size: 2.5rem; color: #007bff; margin-bottom: 15px;"></i>
+                <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;">Payroll Management</h3>
+                <p style="font-size: 0.9rem; color: #6c757d; margin-bottom: 20px;">Streamline payroll processing with our professional services. Easily access related forms and tools.</p>
+                <div style="display: flex; justify-content: space-between; gap: 10px;">
+                    <a href="../Content/Website-Content/Document/Perosnal Tax Checklist.pdf" target="_blank" style="flex: 1; text-align: center; padding: 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 0.9rem;">Download</a>
+                    <button onclick="openFormModal('Personal Tax')" style="flex: 1; text-align: center; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 0.9rem; cursor: pointer;">Fill Online</button>
+                </div>
+                <input type="file" id="PersonalFile" name="filename" style="margin-top: 10px; width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+        </div>
+
+
+
+        <div class="touch-line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>Rakesh Majithia CPA Professional Corporation (RMCPA) is CPA firm operating from Mississauga and Oakville location and dedicated to providing tax, accounting and consulting services to businesses and individuals.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="btn btn-lg btn-secondary btn-block" href="@Url.Action("Enquiry", "Home")"> Contact Us </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /.container -->
+        <!--footer starts from here-->
+        <footer class="footer">
+            <div class="container bottom_border">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">About Us</h5>
+                        <!--headin5_amrc-->
+                        <p class="mb10">Rakesh Majithia CPA Professional Corporation  is CPA firm operating from Mississauga and Oakville location and dedicated to providing tax, accounting and consulting services to businesses and individuals.</p>
+                        <ul class="footer-social">
+                            <li>
+                                <a class="facebook hb-xs-margin" href="https://www.facebook.com/RMCPAPC" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="twitter hb-xs-margin" href="https://x.com/RAKESHCATax" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-twitter"><i class="fab fa-twitter"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="instagram hb-xs-margin" href="https://www.instagram.com/rmcpapc/" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-instagram"><i class="fab fa-instagram"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="googleplus hb-xs-margin" href="https://g.co/kgs/SXpuK84" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-google-plus"><i class="fab fa-google-plus-g"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkedin hb-xs-margin" href="https://www.linkedin.com/company/1629667/" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-linkedin"><i class="fab fa-linkedin"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6" style="padding-left:80px">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                        <!--headin5_amrc-->
+                        <ul class="footer_ul_amrc">
+                            <li><a href="@Url.Action("Index", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Home</a></li>
+                            <li><a href="@Url.Action("About", "Home")"><i class="fas fa-long-arrow-alt-right"></i> About Us</a></li>
+                            <li><a href="@Url.Action("Services", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Our Services</a></li>
+                            <li><a href="@Url.Action("Blog", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Insight</a></li>
+                            <li><a href="@Url.Action("Contact", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Contact</a></li>
+                            <li><a href="@Url.Action("Form", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Form</a></li>
+                            <li><a href="@Url.Action("Index", "Login")"><i class="fas fa-long-arrow-alt-right"></i> Login</a></li>
+                        </ul>
+
+                        <!--footer_ul_amrc ends here-->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Get In Touch</h5>
+                        <!--headin5_amrc ends here-->
+                        <!-- Address section for Mississauga Office -->
+                        <!-- Address section for Mississauga Office -->
+                        <p>
+                            <strong>Mississauga Office:</strong><br>
+                            5805 Whittle Road, Unit # 112,<br>
+                            Mississauga ON L4Z 2J1<br>
+                            TEL: +1 905-815-8442
+                        </p>
+                        <!-- Address section for Oakville Office -->
+                        <p>
+                            <strong>Oakville Office:</strong><br>
+                            13-250 Wyecroft Road, Oakville<br>
+                            ON Canada L6K 3T7<br>
+                            TEL: +1 905 849 7452
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <br /><br />
+                        <h4 style="text-align: center; padding-bottom: 20px; color: white;">OUR CERTIFICATIONS</h4>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <!-- QuickBooks Certification -->
+                            <div class="certification-box" style="flex: 1; margin-right: 10px; text-align: center;">
+                                <img src="../Content/Website-Content/images/Quickbooks.png" alt="QuickBooks" style="width: 60px; height: auto; border-radius: 8px;">
+                                <p style="margin-top: 10px; font-weight: normal;">QuickBooks</p>
+                            </div>
+
+                            <!-- CPA Ontario Certification with Emphasis -->
+                            <div class="certification-box" style="flex: 1; margin-right: 10px; text-align: center;">
+                                <br />
+                                <img src="../Content/Website-Content/images/CPA_Ontario.png" alt="CPA Ontario" style="width: 100%; height: auto; border-radius: 8px; border: 3px solid #2CB5E5;">
+                                <p style="margin-top: 10px; font-weight: bold; color: #2CB5E5;">CPA Ontario</p>
+                            </div>
+
+                            <!-- CPA Alberta Certification -->
+                            <div class="certification-box" style="flex: 1; text-align: center;">
+                                <br />
+                                <img src="../Content/Website-Content/images/CPA_Alberta.png" alt="CPA Alberta" style="width: 100%; height: auto; border-radius: 8px;">
+                                <p style="margin-top: 10px; font-weight: normal;">CPA Alberta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <p class="copyright text-center">
+                    All Rights Reserved. &copy; 2024 <a href="#">JKC Solutions</a> Design By :
+                    <a href="https://html.design/">html design</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../Content/Website-Content/vendor/jquery/jquery.min.js"></script>
+    <script src="../Content/Website-Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../Content/Website-Content/js/imagesloaded.pkgd.min.js"></script>
+    <script src="../Content/Website-Content/js/isotope.pkgd.min.js"></script>
+    <script src="../Content/Website-Content/js/filter.js"></script>
+    <script src="../Content/Website-Content/js/jquery.appear.js"></script>
+    <script src="../Content/Website-Content/js/owl.carousel.min.js"></script>
+    <script src="../Content/Website-Content/js/jquery.fancybox.min.js"></script>
+    <script src="../Content/Website-Content/js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title> Rakesh Majithia - Business Consulting Bootstrap4 Responsive Template </title>
+        <!-- Bootstrap core CSS -->
+        <link href="../Content/Website-Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Fontawesome CSS -->
+        <link href="../Content/Website-Content/css/all.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="../Content/Website-Content/css/style.css" rel="stylesheet">
+    
+    
+        <style>
+    
+            .tweet-container {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+    
+            .tweet {
+                border: 1px solid #ddd;
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+            }
+    
+            .tweet-text {
+                font-size: 16px;
+            }
+    
+            .tweet-date {
+                font-size: 12px;
+                color: #888;
+            }
+        </style>
+    </head>
+    <body>
+              <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="social-media">
+                    <ul>
+                        <li><a href="https://www.facebook.com/RMCPAPC" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/RAKESHCATax" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://g.co/kgs/SXpuK84" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/1629667/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/rmcpapc/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-details">
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone" style="transform: scaleX(1);"></i>
+                            <a href="tel:+19058158442" style="text-decoration: none; color: inherit;">905-815-8442</a>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;
+                            <a href="https://www.google.com/maps/place/5805+Whittle+Rd+Unit+112,+Mississauga,+ON+L4Z+2J1,+Canada/%4043.6243472,-79.6737356,17z/data=!4m10!1m2!2m1!1s112-5805+Whittle+Road,+Mississauga+ON+L4Z+2J1.++905-815-8442!3m6!1s0x882b40a192e15b93:0xa06f1d9189338cf5!8m2!3d43.6243433!4d-79.6711607!15sCjwxMTItNTgwNSBXaGl0dGxlIFJvYWQsIE1pc3Npc3NhdWdhIE9OIEw0WiAySjEuICA5MDUtODE1LTg0NDKSAQpzdWJwcmVtaXNl4AEA!16s%2Fg%2F11rxxv9dmw?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration:none; color:inherit;">
+                                112-5805 Whittle Road, Mississauga ON L4Z 2J1
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
+    <div class="container">
+        <a class="navbar-brand" href="Index.html">
+            <img src="../Content/Website-Content/images/logo-light1.png" alt="logo" style="height: 80px; width:315PX;" />
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["controller"].ToString() == "Home" ? "active" : "")" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "About" ? "active" : "")" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Services" ? "active" : "")" href="services.html">Services</a>
+                </li>
+
+                <!--<li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <i class="fas fa-sort-down"></i></a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Portfolio_3_Col" ? "active" : "")" href="@Url.Action("Portfolio_3_Col", "Home")">3 Column Portfolio</a>-->
+                <!-- @*<a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Portfolio_4_Col" ? "active" : "")" href="@Url.Action("Portfolio_4_Col", "Home")">4 Column Portfolio</a>
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "PortfolioItem" ? "active" : "")" href="@Url.Action("PortfolioItem", "Home")">Single Portfolio Item</a>*@ -->
+                <!--</div>
+                </li>-->
+                <!-- @*<li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fas fa-sort-down"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Blog" ? "active" : "")" href="@Url.Action("Blog", "Home")">Blog</a>
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "BlogPost" ? "active" : "")" href="@Url.Action("BlogPost", "Home")">Blog Post</a>
+                    </div>
+                    </li>*@ -->
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Blog" ? "active" : "")" href="Blog.html">Insight</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Contact" ? "active" : "")" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "FillOnline" ? "active" : "")" href="Form.html">Forms</a>
+                </li>
+                <!-- @*<li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login <i class="fas fa-sort-down"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLogin">
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "CorpLogin" ? "active" : "")" href="@Url.Action("Index", "Login")">Corp Login</a>
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "ClientLogin" ? "active" : "")" href="@Url.Action("ClientLogin", "Login")">Client Login</a>
+                        </div>
+                    </li>*@ -->
+                <!-- @*@if (Session["Username"] != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Welcome, @Session["Username"]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Login <i class="fas fa-sort-down"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLogin">
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "CorpLogin" ? "active" : "")" href="@Url.Action("Index", "Login")">Corp Login</a>
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "ClientLogin" ? "active" : "")" href="@Url.Action("ClientLogin", "Login")">Client Login</a>
+                        </div>
+                    </li>
+                }*@
+            </ul> -->
+        </div>
+    </div>
+</nav>
+        <div class="wrapper-main">
+    
+            <!-- Full Title Section -->
+            <div class="full-title" style="margin-bottom: 0; padding-top: 40px;">
+                <!-- Removed bottom margin and top padding -->
+                <div class="container" style="padding: 0;">
+                    <!-- Page Heading/Breadcrumbs -->
+                    <h1 class="mt-4 mb-3" style="margin: 0;">Insight</h1>
+                    <div class="breadcrumb-main">
+                        <ol class="breadcrumb" style="margin: 10px 0 0; padding: 10px;">
+                            <!-- Reduced margin and padding -->
+                            <li class="breadcrumb-item">
+                                <a href="@Url.Action("Index", "Home")">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active">Insight</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Blog Main Content Section -->
+            <div class="blog-main" style="padding-top: 0;">
+                <div class="container" style="padding: 15px 0;">
+                    <!-- Reduced container padding -->
+                    <div class="row">
+                        <!-- Blog Entries Column -->
+                        <div class="col-md-12 blog-entries" style="text-align: center; margin: 0 auto;">
+    
+                            <!-- Blog Post 1 and 2 (Side by side) -->
+                            <div class="row">
+                                <!-- Blog Post 1 -->
+                                <div class="col-md-6 mb-4">
+                                    <div class="card blog-tile">
+                                        <img class="card-img-top" src="../Content/Website-Content/images/blog-img-01.jpg" alt="Card image Blog" />
+                                        <div class="card-body">
+                                            <div class="by-post" style="margin-bottom: 10px;">
+                                                Posted on January 1, 2018 by <a href="#">RM CPA</a>
+                                            </div>
+                                            <h2 class="card-title" style="margin-bottom: 15px;">How much can I contribute to my RRSP Limit?</h2>
+                                            <p class="card-text" style="margin-bottom: 15px;">In the 2014 federal budget, the government announced the first proposal of repealing the Eligible Capital Property regime...</p>
+                                            <a href="@Url.Action("BlogPost", "Home")" class="btn btn-primary">Continue &rarr;</a>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Blog Post 2 -->
+                                <div class="col-md-6 mb-4">
+                                    <div class="card blog-tile">
+                                        <img class="card-img-top" src="../Content/Website-Content/images/blog-img-02.jpg" alt="Card image Blog" />
+                                        <div class="card-body">
+                                            <div class="by-post" style="margin-bottom: 10px;">
+                                                Posted on January 1, 2018 by <a href="#">RM CPA</a>
+                                            </div>
+                                            <h2 class="card-title" style="margin-bottom: 15px;">Capital Gains or Income?</h2>
+    
+                                            <p class="card-text" style="margin-bottom: 15px;">Earlier we discussed who pays taxes in Canada. Determining residency is an important factor to decide what income...</p>
+                                            <br /><br />
+                                            <a href="@Url.Action("BlogPost1", "Home")" class="btn btn-primary">Continue &rarr;</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Blog Post 3 (Below the first two) -->
+                            <!-- @*<div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card blog-tile">
+                                        <img class="card-img-top" src="../Content/Website-Content/images/blog-img-03.jpg" alt="Card image Blog" />
+                                        <div class="card-body">
+                                            <div class="by-post" style="margin-bottom: 10px;">
+                                                Posted on January 1, 2018 by <a href="#">RM CPA</a>
+                                            </div>
+                                            <h2 class="card-title" style="margin-bottom: 15px;">Canada Emergency Rent Subsidy (CERS)</h2>
+                                            <p class="card-text" style="margin-bottom: 15px;">
+                                                Canada Emergency Rent Subsidy (CERS) was announced in November 2020. Discover all the latest updates...
+                                            </p>
+                                            <a href="@Url.Action("BlogPost2", "Home")" class="btn btn-primary">Continue &rarr;</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>*@ -->
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                /* Styling for Blog Tiles */
+                .blog-tile {
+                    height: 100%; /* Ensure all cards are the same height */
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+    
+                    .blog-tile img {
+                        height: 200px; /* Set image height */
+                        object-fit: cover; /* Ensure the image covers the container */
+                    }
+    
+                .card-body {
+                    text-align: left;
+                }
+    
+                .card-title {
+                    font-size: 1.2rem;
+                }
+    
+                .card-text {
+                    font-size: 1rem;
+                    color: #555;
+                }
+    
+                .card-body .btn-primary {
+                    margin-top: 10px;
+                }
+    
+                /* Adjusting the layout for the blog posts */
+                .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+    
+                .col-md-6 {
+                    flex: 0 0 48%;
+                }
+    
+                .col-md-12 {
+                    flex: 0 0 100%;
+                }
+    
+                .mb-4 {
+                    margin-bottom: 20px;
+                }
+    
+                /* Remove pagination */
+                .pagination_bar_arrow {
+                    display: none;
+                }
+            </style>
+    
+    
+    
+            <div style="display: flex; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
+                <!-- Twitter Posts Section -->
+                <div style="width: 48%; border: 1px solid #e1e8ed; border-radius: 8px; overflow-y: auto; max-height: 600px; padding: 20px;">
+                    <h1 style="font-size: 24px; text-align: center; color: #1DA1F2; margin-bottom: 20px;">Tweets</h1>
+    
+                    <blockquote class="twitter-tweet" style="width: 100%; margin-bottom: 20px;">
+                        <p lang="en" dir="ltr">
+                            Some of the tax changes of 2023...
+                            <a href="https://t.co/iN2SEiO5b3">pic.twitter.com/iN2SEiO5b3</a>
+                        </p>&mdash; Rakesh Majithia (RAKESHCATax)
+                        <a href="https://twitter.com/RAKESHCATax/status/1630083095645806594?ref_src=twsrc%5Etfw">February 27, 2023</a>
+                    </blockquote>
+    
+                    <blockquote class="twitter-tweet" style="width: 100%; margin-bottom: 20px;">
+                        <p lang="en" dir="ltr">
+                            Some of the tax changes for 2023...A great read.
+                            <a href="https://t.co/gdelBZCbUX">https://t.co/gdelBZCbUX</a>
+                        </p>&mdash; Rakesh Majithia (RAKESHCATax)
+                        <a href="https://twitter.com/RAKESHCATax/status/1630080889081462784?ref_src=twsrc%5Etfw">February 27, 2023</a>
+                    </blockquote>
+    
+                    <blockquote class="twitter-tweet" style="width: 100%; margin-bottom: 20px;">
+                        <p lang="en" dir="ltr">
+                            TFSA or RRSP? Here are some details. Call us at 905 815 8442 for further details.
+                            <a href="https://t.co/6ZZd88n701">pic.twitter.com/6ZZd88n701</a>
+                        </p>&mdash; Rakesh Majithia (RAKESHCATax)
+                        <a href="https://twitter.com/RAKESHCATax/status/1620073504740880385?ref_src=twsrc%5Etfw">January 30, 2023</a>
+                    </blockquote>
+    
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+    
+                <!-- LinkedIn Posts Section -->
+                <div style="width: 48%; border: 1px solid #e1e8ed; border-radius: 8px; overflow-y: auto; max-height: 600px; padding: 20px;">
+                    <h1 style="font-size: 24px; text-align: center; color: #0077b5; margin-bottom: 20px;">LinkedIn Posts</h1>
+    
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7159172630523088897" style="width: 100%; height: 400px; border: none; margin-bottom: 20px;" allowfullscreen title="Embedded post"></iframe>
+    
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7026595274772946944" style="width: 100%; height: 400px; border: none; margin-bottom: 20px;" allowfullscreen title="Embedded post"></iframe>
+    
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6990283348237590528" height="648" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                </div>
+            </div>
+    
+            <!-- <h3>LinkedIn Posts</h3>
+            <div>
+                @if (Model != null && Model.Any())
+                    
+                {
+                foreach (var tweet in Model)
+                {
+                <div>
+                    @if (tweet != null)
+                        
+                    {
+                    <p>@tweet.Text</p>
+                    <p>
+                        <strong>Created at:</strong>
+                        @if (!string.IsNullOrEmpty(tweet.CreatedTime) && long.TryParse(tweet.CreatedTime, out long createdTimeMilliseconds))
+                        {
+                        @DateTimeOffset.FromUnixTimeMilliseconds(createdTimeMilliseconds).DateTime
+                        }
+                        else
+                        {
+                        <span>Unknown Date</span>  
+                        
+                        }
+                    </p>
+                    }
+                    else
+                    {
+                    <p>No tweet information available.</p> 
+                    
+                    }
+                </div>
+                }
+                }
+                else
+                {
+                <p>No posts available.</p>
+                
+                }
+            </div> -->
+    
+    
+    
+    
+    
+            <!-- /.container -->
+            <!-- Contact Us -->
+            <div class="touch-line">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p>Rakesh Majithia CPA Professional Corporation (RMCPA) is CPA firm operating from Mississauga and Oakville location and dedicated to providing tax, accounting and consulting services to businesses and individuals.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn btn-lg btn-secondary btn-block" href="@Url.Action("Enquiry", "Home")"> Contact Us </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer starts from here-->
+        <footer class="footer">
+            <div class="container bottom_border">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">About Us</h5>
+                        <!--headin5_amrc-->
+                        <p class="mb10">Rakesh Majithia CPA Professional Corporation  is CPA firm operating from Mississauga and Oakville location and dedicated to providing tax, accounting and consulting services to businesses and individuals.</p>
+                        <ul class="footer-social">
+                            <li>
+                                <a class="facebook hb-xs-margin" href="https://www.facebook.com/RMCPAPC" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="twitter hb-xs-margin" href="https://x.com/RAKESHCATax" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-twitter"><i class="fab fa-twitter"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="instagram hb-xs-margin" href="https://www.instagram.com/rmcpapc/" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-instagram"><i class="fab fa-instagram"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="googleplus hb-xs-margin" href="https://g.co/kgs/SXpuK84" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-google-plus"><i class="fab fa-google-plus-g"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkedin hb-xs-margin" href="https://www.linkedin.com/company/1629667/" target="_blank" rel="noopener noreferrer">
+                                    <span class="hb hb-xs spin hb-linkedin"><i class="fab fa-linkedin"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6" style="padding-left:80px">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                        <!--headin5_amrc-->
+                        <ul class="footer_ul_amrc">
+                            <li><a href="@Url.Action("Index", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Home</a></li>
+                            <li><a href="@Url.Action("About", "Home")"><i class="fas fa-long-arrow-alt-right"></i> About Us</a></li>
+                            <li><a href="@Url.Action("Services", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Our Services</a></li>
+                            <li><a href="@Url.Action("Blog", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Insight</a></li>
+                            <li><a href="@Url.Action("Contact", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Contact</a></li>
+                            <li><a href="@Url.Action("Form", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Form</a></li>
+                            <li><a href="@Url.Action("Index", "Login")"><i class="fas fa-long-arrow-alt-right"></i> Login</a></li>
+                        </ul>
+    
+                        <!--footer_ul_amrc ends here-->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Get In Touch</h5>
+                        <!--headin5_amrc ends here-->
+                        <!-- Address section for Mississauga Office -->
+                        <!-- Address section for Mississauga Office -->
+                        <p>
+                            <strong>Mississauga Office:</strong><br>
+                            5805 Whittle Road, Unit # 112,<br>
+                            Mississauga ON L4Z 2J1<br>
+                            TEL: +1 905-815-8442
+                        </p>
+                        <!-- Address section for Oakville Office -->
+                        <p>
+                            <strong>Oakville Office:</strong><br>
+                            13-250 Wyecroft Road, Oakville<br>
+                            ON Canada L6K 3T7<br>
+                            TEL: +1 905 849 7452
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <br /><br />
+                        <h4 style="text-align: center; padding-bottom: 20px; color: white;">OUR CERTIFICATIONS</h4>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <!-- QuickBooks Certification -->
+                            <div class="certification-box" style="flex: 1; margin-right: 10px; text-align: center;">
+                                <img src="../Content/Website-Content/images/Quickbooks.png" alt="QuickBooks" style="width: 60px; height: auto; border-radius: 8px;">
+                                <p style="margin-top: 10px; font-weight: normal;">QuickBooks</p>
+                            </div>
+    
+                            <!-- CPA Ontario Certification with Emphasis -->
+                            <div class="certification-box" style="flex: 1; margin-right: 10px; text-align: center;">
+                                <br />
+                                <img src="../Content/Website-Content/images/CPA_Ontario.png" alt="CPA Ontario" style="width: 100%; height: auto; border-radius: 8px; border: 3px solid #2CB5E5;">
+                                <p style="margin-top: 10px; font-weight: bold; color: #2CB5E5;">CPA Ontario</p>
+                            </div>
+    
+                            <!-- CPA Alberta Certification -->
+                            <div class="certification-box" style="flex: 1; text-align: center;">
+                                <br />
+                                <img src="../Content/Website-Content/images/CPA_Alberta.png" alt="CPA Alberta" style="width: 100%; height: auto; border-radius: 8px;">
+                                <p style="margin-top: 10px; font-weight: normal;">CPA Alberta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <p class="copyright text-center">
+                    All Rights Reserved. &copy; 2024 <a href="#">JKC Solutions</a> Design By :
+                    <a href="https://html.design/">html design</a>
+                </p>
+            </div>
+        </footer>
+    
+        <!-- Bootstrap core JavaScript -->
+        <script src="../Content/Website-Content/vendor/jquery/jquery.min.js"></script>
+        <script src="../Content/Website-Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../Content/Website-Content/js/jquery.appear.js"></script>
+        <script src="../Content/Website-Content/js/script.js"></script>
+    
+        <script>
+            async function fetchTweets() {
+                const response = await fetch('@Url.Action("GetTweets", "Twitter", new { username = "elonmusk" })'); // Replace with target username
+                const tweets = await response.json();
+    
+                const tweetContainer = document.getElementById("tweets");
+    
+    
+    
+                tweetContainer.innerHTML = tweets.map(tweet => `
+                    <div class="tweet">
+                        <div class="tweet-text">${tweet.Text}</div>
+                        <div class="tweet-date">${new Date(tweet.CreatedAt).toLocaleString()}</div>
+                    </div>
+                `).join('');
+            }
+    
+            setInterval(fetchTweets, 60000); // Refresh every 60 seconds
+        </script>
+    </body>
+</html>

@@ -1,0 +1,158 @@
+﻿
+/* E-Sign Interface Styling */
+#e-sign-interface {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+#e-sign-interface h2, #e-sign-interface h3 {
+    text-align: center;
+    color: #333;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.pay-now-btn {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .pay-now-btn:hover {
+        background-color: #e0a800;
+    }
+
+.sign-doc-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .sign-doc-btn:hover {
+        background-color: #0056b3;
+    }
+
+/* Modal Styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 5% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+    }
+
+.signature-pad {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+    cursor: crosshair;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+    .btn-primary:hover {
+        background-color: #0069d9;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+    }
+
+    .signature-pad {
+        height: 200px;
+    }
+}
+
+
+@media print {
+    iframe
+
+{
+    display: none;
+}
+
+}

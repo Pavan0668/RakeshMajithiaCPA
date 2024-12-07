@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title> Zonebiz - Business Consulting Bootstrap4 Responsive Template </title>
+        <!-- Bootstrap core CSS -->
+        <link href="../Content/Website-Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Fontawesome CSS -->
+        <link href="../Content/Website-Content/css/all.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="../Content/Website-Content/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+              <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="social-media">
+                    <ul>
+                        <li><a href="https://www.facebook.com/RMCPAPC" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/RAKESHCATax" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://g.co/kgs/SXpuK84" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/1629667/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/rmcpapc/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-details">
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone" style="transform: scaleX(1);"></i>
+                            <a href="tel:+19058158442" style="text-decoration: none; color: inherit;">905-815-8442</a>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;
+                            <a href="https://www.google.com/maps/place/5805+Whittle+Rd+Unit+112,+Mississauga,+ON+L4Z+2J1,+Canada/%4043.6243472,-79.6737356,17z/data=!4m10!1m2!2m1!1s112-5805+Whittle+Road,+Mississauga+ON+L4Z+2J1.++905-815-8442!3m6!1s0x882b40a192e15b93:0xa06f1d9189338cf5!8m2!3d43.6243433!4d-79.6711607!15sCjwxMTItNTgwNSBXaGl0dGxlIFJvYWQsIE1pc3Npc3NhdWdhIE9OIEw0WiAySjEuICA5MDUtODE1LTg0NDKSAQpzdWJwcmVtaXNl4AEA!16s%2Fg%2F11rxxv9dmw?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration:none; color:inherit;">
+                                112-5805 Whittle Road, Mississauga ON L4Z 2J1
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
+    <div class="container">
+        <a class="navbar-brand" href="Index.html">
+            <img src="../Content/Website-Content/images/logo-light1.png" alt="logo" style="height: 80px; width:315PX;" />
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["controller"].ToString() == "Home" ? "active" : "")" href="../Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "About" ? "active" : "")" href="../About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Services" ? "active" : "")" href="../services.html">Services</a>
+                </li>
+
+                <!--<li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <i class="fas fa-sort-down"></i></a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Portfolio_3_Col" ? "active" : "")" href="@Url.Action("Portfolio_3_Col", "Home")">3 Column Portfolio</a>-->
+                <!-- @*<a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Portfolio_4_Col" ? "active" : "")" href="@Url.Action("Portfolio_4_Col", "Home")">4 Column Portfolio</a>
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "PortfolioItem" ? "active" : "")" href="@Url.Action("PortfolioItem", "Home")">Single Portfolio Item</a>*@ -->
+                <!--</div>
+                </li>-->
+                <!-- @*<li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fas fa-sort-down"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Blog" ? "active" : "")" href="@Url.Action("Blog", "Home")">Blog</a>
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "BlogPost" ? "active" : "")" href="@Url.Action("BlogPost", "Home")">Blog Post</a>
+                    </div>
+                    </li>*@ -->
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Blog" ? "active" : "")" href="../Blog.html">Insight</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Contact" ? "active" : "")" href="../Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "FillOnline" ? "active" : "")" href="../Form.html">Forms</a>
+                </li>
+                <!-- @*<li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login <i class="fas fa-sort-down"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLogin">
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "CorpLogin" ? "active" : "")" href="@Url.Action("Index", "Login")">Corp Login</a>
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "ClientLogin" ? "active" : "")" href="@Url.Action("ClientLogin", "Login")">Client Login</a>
+                        </div>
+                    </li>*@ -->
+                <!-- @*@if (Session["Username"] != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Welcome, @Session["Username"]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Login <i class="fas fa-sort-down"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLogin">
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "CorpLogin" ? "active" : "")" href="@Url.Action("Index", "Login")">Corp Login</a>
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "ClientLogin" ? "active" : "")" href="@Url.Action("ClientLogin", "Login")">Client Login</a>
+                        </div>
+                    </li>
+                }*@
+            </ul> -->
+        </div>
+    </div>
+</nav>
+        <div class="wrapper-main">
+            <!-- full Title -->
+            <div class="full-title">
+                <div class="container">
+                    <!-- Page Heading/Breadcrumbs -->
+                    <h1 class="mt-4 mb-3"> Assurance Services </h1>
+                    <div class="breadcrumb-main">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="../Index.html">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active">Assurance Services</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+    
+            <div style="display: flex; justify-content: center; align-items: center; height: auto; padding: 40px 0; background-color: #f8f9fa;">
+                <div style="text-align: center; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 80%; max-width: 800px;">
+                    <h2 style="font-size: 28px; color: #333; margin-bottom: 20px;">Corporate Tax</h2>
+                    <p style="font-size: 18px; color: #555; margin-bottom: 20px; line-height: 1.6;">
+                        Our Corporate Tax services are tailored to assist businesses in navigating the complexities of taxation, ensuring compliance while optimizing financial performance. We provide:
+                    </p>
+                    <ul style="list-style-type: disc; padding-left: 20px; text-align: left; font-size: 16px; color: #555; line-height: 1.8;">
+                        <li style="margin-bottom: 10px;"><strong>Corporate Tax Returns:</strong> Thorough preparation and filing of corporate tax returns, guaranteeing accuracy and compliance with regulatory standards.</li>
+                        <li style="margin-bottom: 10px;"><strong>GST/HST/QST Filing:</strong> Professional support for all your indirect tax filing, helping you maximize input tax credits and meet provincial requirements.</li>
+                        <li style="margin-bottom: 10px;"><strong>CRA Audit Support:</strong> Our skilled team offers comprehensive assistance during Canada Revenue Agency audits, preparing necessary documentation and addressing inquiries with confidence.  We provide seamless communication with CRA and keeping our clients informed on our audit progress.</li>
+                        <li style="margin-bottom: 10px;"><strong>NPOs and Charities Tax Filing:</strong> Focused services for non-profit organizations and charities, ensuring adherence to tax regulations while enhancing financial reporting and transparency.</li>
+                        <li style="margin-bottom: 10px;"><strong>Cross-Border Tax Filing:</strong> Expertise in managing international tax obligations through our cross-border tax filing services, designed to help businesses optimize tax efficiencies across different jurisdictions.</li>
+                    </ul>
+                </div>
+            </div>
+    
+    
+    
+            <footer class="footer">
+                <div class="container bottom_border">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col">
+                            <h5 class="headin5_amrc col_white_amrc pt2">About Us</h5>
+                            <!--headin5_amrc-->
+                            <p class="mb10">Rakesh Majithia CPA Professional Corporation (RMCPAPC) is CPA firm operating from Mississauga and Oakville location and dedicated to providing tax, accounting and consulting services to businesses and individuals.</p>
+                            <ul class="footer-social">
+                                <li><a class="facebook hb-xs-margin" href="#"><span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span></a></li>
+                                <li><a class="twitter hb-xs-margin" href="#"><span class="hb hb-xs spin hb-twitter"><i class="fab fa-twitter"></i></span></a></li>
+                                <li><a class="instagram hb-xs-margin" href="#"><span class="hb hb-xs spin hb-instagram"><i class="fab fa-instagram"></i></span></a></li>
+                                <li><a class="googleplus hb-xs-margin" href="#"><span class="hb hb-xs spin hb-google-plus"><i class="fab fa-google-plus-g"></i></span></a></li>
+                                <li><a class="dribbble hb-xs-margin" href="#"><span class="hb hb-xs spin hb-dribbble"><i class="fab fa-dribbble"></i></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6" style="padding-left:80px">
+                            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                            <!--headin5_amrc-->
+                            <ul class="footer_ul_amrc">
+                                <li><a href="@Url.Action("Index", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Home</a></li>
+                                <li><a href="@Url.Action("About", "Home")"><i class="fas fa-long-arrow-alt-right"></i> About Us</a></li>
+                                <li><a href="@Url.Action("Services", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Our Services</a></li>
+                                <li><a href="@Url.Action("Blog", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Insight</a></li>
+                                <li><a href="@Url.Action("Contact", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Contact</a></li>
+                                <li><a href="@Url.Action("Form", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Form</a></li>
+                                <li><a href="@Url.Action("Index", "Login")"><i class="fas fa-long-arrow-alt-right"></i> Login</a></li>
+                            </ul>
+    
+                            <!--footer_ul_amrc ends here-->
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <h5 class="headin5_amrc col_white_amrc pt2">Get In Touch</h5>
+    
+                            <!-- Address section for Mississauga Office -->
+                            <p>
+                                <strong>Mississauga Office:</strong><br>
+                                5805 Whittle Road, Unit # 112,<br>
+                                Mississauga ON L4Z 2J1<br>
+                                TEL: +1 905-815-8442
+                            </p>
+                            <!-- Address section for Oakville Office -->
+                            <p>
+                                <strong>Oakville Office:</strong><br>
+                                13-250 Wyecroft Road, Oakville<br>
+                                ON Canada L6K 3T7<br>
+                                TEL: +1 905 849 7452
+                            </p>
+    
+                            <!-- Address section for Mississauga Office -->
+    
+                        </div>
+    
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <br /><br />
+                            <h4 style="text-align: center; padding-bottom: 20px;color:white">OUR CERTIFICATIONS</h4>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div class="certification-box" style="flex: 1; margin-right: 10px; text-align: center;">
+                                    <img src="../Content/Website-Content/images/Quickbooks.png" alt="QuickBooks" style="width: 100%; height: auto; border-radius: 8px;">
+                                    <p style="margin-top: 10px;">QuickBooks</p>
+                                </div>
+                                <div class="certification-box" style="flex: 1; margin-right: 10px; text-align: center;">
+                                    <img src="../Content/Website-Content/images/CPA_Ontario.png" alt="CPA Ontario" style="width: 100%; height: auto; border-radius: 8px;">
+                                    <br />
+                                    <p style="margin-top: 10px;">CPA Ontario</p>
+                                </div>
+                                <div class="certification-box" style="flex: 1; text-align: center;">
+                                    <img src="../Content/Website-Content/images/CPA_Alberta.png" alt="CPA Alberta" style="width: 100%; height: auto; border-radius: 8px;">
+                                    <br />
+                                    <p style="margin-top: 10px;">CPA Alberta</p>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+                <div class="container">
+                    <p class="copyright text-center">
+                        All Rights Reserved. &copy; 2024 <a href="#">JKC Solutions</a> Design By :
+                        <a href="https://html.design/">html design</a>
+                    </p>
+                </div>
+            </footer>
+    
+    
+            <!-- Bootstrap core JavaScript -->
+            <script src="../Content/Website-Content/vendor/jquery/jquery.min.js"></script>
+            <script src="../Content/Website-Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <!-- Contact form JavaScript -->
+            <script src="../Content/Website-Content/js/jqBootstrapValidation.js"></script>
+            <script src="../Content/Website-Content/js/contact_me.js"></script>
+            <script src="../Content/Website-Content/js/jquery.appear.js"></script>
+            <script src="../Content/Website-Content/js/script.js"></script>
+        </div>
+    </body>
+    
+    
+</html>

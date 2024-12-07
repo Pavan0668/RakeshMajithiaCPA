@@ -1,0 +1,49 @@
+﻿.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between each service item */
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between title and button container */
+}
+
+.service-title {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons and input to wrap if needed */
+    gap: 10px; /* Spacing between buttons and input */
+}
+
+.form-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .form-button:hover {
+        background-color: #45a049;
+    }
+
+input[type="file"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Ensure that the form buttons and input are aligned horizontally within each container */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column; /* Stack buttons and input vertically on small screens */
+    }
+}

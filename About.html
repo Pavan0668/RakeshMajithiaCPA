@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title> Rakesh Majithia - Business Consulting Bootstrap4 Responsive Template </title>
+        <!-- Bootstrap core CSS -->
+        <link href="../Content/Website-Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Fontawesome CSS -->
+        <link href="../Content/Website-Content/css/all.css" rel="stylesheet">
+        <!-- Owl Carousel CSS -->
+        <link href="../Content/Website-Content/css/owl.carousel.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="../Content/Website-Content/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    </head>
+    <body>
+              <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="social-media">
+                    <ul>
+                        <li><a href="https://www.facebook.com/RMCPAPC" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/RAKESHCATax" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://g.co/kgs/SXpuK84" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/1629667/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/rmcpapc/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-details">
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone" style="transform: scaleX(1);"></i>
+                            <a href="tel:+19058158442" style="text-decoration: none; color: inherit;">905-815-8442</a>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;
+                            <a href="https://www.google.com/maps/place/5805+Whittle+Rd+Unit+112,+Mississauga,+ON+L4Z+2J1,+Canada/%4043.6243472,-79.6737356,17z/data=!4m10!1m2!2m1!1s112-5805+Whittle+Road,+Mississauga+ON+L4Z+2J1.++905-815-8442!3m6!1s0x882b40a192e15b93:0xa06f1d9189338cf5!8m2!3d43.6243433!4d-79.6711607!15sCjwxMTItNTgwNSBXaGl0dGxlIFJvYWQsIE1pc3Npc3NhdWdhIE9OIEw0WiAySjEuICA5MDUtODE1LTg0NDKSAQpzdWJwcmVtaXNl4AEA!16s%2Fg%2F11rxxv9dmw?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration:none; color:inherit;">
+                                112-5805 Whittle Road, Mississauga ON L4Z 2J1
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
+    <div class="container">
+        <a class="navbar-brand" href="Index.html">
+            <img src="../Content/Website-Content/images/logo-light1.png" alt="logo" style="height: 80px; width:315PX;" />
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["controller"].ToString() == "Home" ? "active" : "")" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "About" ? "active" : "")" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Services" ? "active" : "")" href="services.html">Services</a>
+                </li>
+
+                <!--<li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <i class="fas fa-sort-down"></i></a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Portfolio_3_Col" ? "active" : "")" href="@Url.Action("Portfolio_3_Col", "Home")">3 Column Portfolio</a>-->
+                <!-- @*<a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Portfolio_4_Col" ? "active" : "")" href="@Url.Action("Portfolio_4_Col", "Home")">4 Column Portfolio</a>
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "PortfolioItem" ? "active" : "")" href="@Url.Action("PortfolioItem", "Home")">Single Portfolio Item</a>*@ -->
+                <!--</div>
+                </li>-->
+                <!-- @*<li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fas fa-sort-down"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "Blog" ? "active" : "")" href="@Url.Action("Blog", "Home")">Blog</a>
+                    <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "BlogPost" ? "active" : "")" href="@Url.Action("BlogPost", "Home")">Blog Post</a>
+                    </div>
+                    </li>*@ -->
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Blog" ? "active" : "")" href="Blog.html">Insight</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Contact" ? "active" : "")" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "FillOnline" ? "active" : "")" href="Form.html">Forms</a>
+                </li>
+                <!-- @*<li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login <i class="fas fa-sort-down"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLogin">
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "CorpLogin" ? "active" : "")" href="@Url.Action("Index", "Login")">Corp Login</a>
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "ClientLogin" ? "active" : "")" href="@Url.Action("ClientLogin", "Login")">Client Login</a>
+                        </div>
+                    </li>*@ -->
+                <!-- @*@if (Session["Username"] != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Welcome, @Session["Username"]</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Login <i class="fas fa-sort-down"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLogin">
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "CorpLogin" ? "active" : "")" href="@Url.Action("Index", "Login")">Corp Login</a>
+                            <a class="dropdown-item @(ViewContext.RouteData.Values["action"].ToString() == "ClientLogin" ? "active" : "")" href="@Url.Action("ClientLogin", "Login")">Client Login</a>
+                        </div>
+                    </li>
+                }*@
+            </ul> -->
+        </div>
+    </div>
+</nav>
+        <div class="wrapper-main">
+    
+    
+            <!-- full Title -->
+            <div class="full-title">
+                <div class="container">
+                    <!-- Page Heading/Breadcrumbs -->
+                    <h1 class="mt-4 mb-3"> About Us</h1>
+                    <div class="breadcrumb-main">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="@Url.Action("Index", "Home")">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active"> About Us </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <!-- About Content -->
+                <div class="about-main">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <br /><br /><br /><br />
+                            <img class="img-fluid rounded mb-4" src="../Content/Website-Content/images/about-img.jpg" alt="" />
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>About Us</h2>
+                            <h6>Rakesh Majithia CPA Professional Corporation (RMCPA) is a leading CPA firm with offices in Mississauga and Oakville, specializing in tax, accounting, and consulting services for both businesses and individuals.</h6>
+                            <p style="text-transform: none; font-size: 16px;">We aim to redefine traditional market models by offering a fresh and innovative approach to help clients achieve their financial goals, whether personally or professionally. Our dedication to client success motivates us to provide exceptional service, along with customized, cost-effective solutions designed to meet the specific needs of entrepreneurial clients.</p>
+                            <p style="text-transform: none; font-size: 16px;">Our experienced team, consisting of knowledgeable partners and associates, is well-versed in Canadian taxation and accounting. We work closely with both business and individual clients to provide expert advice on tax, accounting, and auditing matters.</p>
+                            <p style="text-transform: none; font-size: 16px;">We serve a wide range of clients, including small and medium-sized businesses across Ontario, Canada, and internationally. In addition, we assist entrepreneurs, tax-exempt organizations, individual taxpayers, and foreign nationals.</p>
+                        </div>
+    
+                    </div>
+                    <!-- /.row -->
+                </div>
+            </div>
+            <div class="about-inner" style="padding: 20px; background-color: #f9f9f9;">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-lg-6">
+                            <div class="left-ab" style="text-align: left; padding: 20px;">
+                                <h3 style="font-size: 2.5em; margin-bottom: 10px;">
+                                    <!-- @*<img src="../Content/Website-Content/images/Arrow_hitting.jpg" alt="Bullseye with Arrow" style="width: 60px; height: 60px; vertical-align: middle; margin-right: 5px;">*@ -->
+                                    Our Mission
+                                </h3>
+                                <p style="font-size: 1.2em; color: #555;">
+                                    We are committed to providing tailored, innovative, and cost-effective solutions for businesses and individuals to help achieve client’s financial goals.
+                                </p>
+                            </div>
+    
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-ab" style="text-align: center; padding: 20px;">
+                                <img src="../Content/Website-Content/images/Arrow_hitting.jpg" alt="Bullseye with Arrow" style="width: 130px; height: 130px; vertical-align: middle; margin-right: 5px; ">
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="right-ab" style="text-align: center; padding: 20px;">
+                                <img src="../Content/Website-Content/images/bulblight.jpg" alt="Bullseye with Arrow" style="width: 130px; height: 130px; vertical-align: middle; margin-right: 5px;">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="left-ab" style="text-align: left; padding: 20px;">
+                                <h3 style="font-size: 2.5em; margin-bottom: 10px;">
+                                    <!-- @*<img src="../Content/Website-Content/images/bulblight.jpg" alt="Bullseye with Arrow" style="width: 60px; height: 60px; vertical-align: middle; margin-right: 5px; ">*@ -->
+                                    Our Vision
+                                </h3>
+                                <p style="font-size: 1.2em; color: #555;">To be a trusted partner offering expert guidance in taxation and accounting while delivering exceptional client service across Canada and internationally.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <!-- Team Members -->
+                <div class="team-members-box">
+                    <h2>Our Founder</h2>
+                    <div class="row">
+                        <div class="col-lg-4 mb-4" style="margin-bottom: 0px; display: flex; justify-content: center;">
+                            <div class="card h-100 text-center" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; width: 100%;">
+                                <div class="our-teams" style="padding: 20px; background-color: #f9f9f9;">
+                                    <img class="img-fluid" src="../Content/Website-Content/images/me.jpg" alt="" style="width: 100%; height: auto; border-radius: 50%; margin-bottom: 15px;" />
+                                    <div class="team-content" style="text-align: center;">
+                                        <h3 class="title" style="font-size: 1.5em; margin: 10px 0;">Rakesh Majithia, <small>CPA</small></h3>
+                                        <!-- @*<span class="post" style="font-size: 1em; color: #777;">CPA</span>*@ -->
+                                        <ul class="social" style="list-style: none; padding: 0; margin: 15px 0 0;">
+                                            <li style="display: inline;">
+                                                <a href="https://www.linkedin.com/in/rakesh-majithia-1628b6b" target="_blank" style="text-decoration: none; color: #0077b5;">
+                                                    <i class="fab fa-linkedin-in" style="font-size: 1.5em;"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="col-lg-8 mb-4">
+                            <br /><br />
+                            <p style="font-size:16px;">
+                                Rakesh Majithia is the founder of Rakesh Majithia CPA Professional Corporation,
+                                bringing over 20 years of accounting experience with a specialization in owner-managed
+                                businesses, startups, professionals, and individuals. He has worked across a wide range
+                                of industries, including real estate, manufacturing, hospitality, and food services.
+                            </p>
+                            <p style="font-size:16px;">
+                                A graduate of Ryerson University (Toronto Metropolitan University), Rakesh earned his Chartered Accountant designation
+                                in 2004 after gaining valuable experience in the public accounting sector. He has expertise
+                                in tax, business advisory, and assurance services, regularly consulting on strategic planning,
+                                financial analysis, profit improvement, internal control procedures, and tax planning
+                                for owner-managers and high-net-worth individuals.
+                            </p>
+                            <p style="font-size:16px;">
+                                Outside of his professional endeavors, Rakesh is an active board member for several
+                                organizations and is dedicated to supporting various charitable initiatives, reflecting
+                                his commitment to community involvement.
+                            </p>
+                        </div>
+                       
+                    </div>
+                    <!-- /.row -->
+                </div>
+            </div>
+           
+            <!-- Contact Us -->
+            <div class="touch-line" style="margin-top: 30px;">
+                <div class="container" style="padding: 30px 0;">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p>Rakesh Majithia CPA Professional Corporation (RMCPA) is CPA firm operating from Mississauga and Oakville location and dedicated to providing tax, accounting and consulting services to businesses and individuals.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn btn-lg btn-secondary btn-block" href="@Url.Action("Enquiry", "Home")"> Contact Us </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!--footer starts from here-->
+            <footer class="footer">
+                <div class="container bottom_border">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col">
+                            <h5 class="headin5_amrc col_white_amrc pt2">About Us</h5>
+                            <!--headin5_amrc-->
+                            <p class="mb10">Rakesh Majithia CPA Professional Corporation  is CPA firm operating from Mississauga and Oakville location and dedicated to providing tax, accounting and consulting services to businesses and individuals.</p>
+                            <ul class="footer-social">
+                                <li>
+                                    <a class="facebook hb-xs-margin" href="https://www.facebook.com/RMCPAPC" target="_blank" rel="noopener noreferrer">
+                                        <span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="twitter hb-xs-margin" href="https://x.com/RAKESHCATax" target="_blank" rel="noopener noreferrer">
+                                        <span class="hb hb-xs spin hb-twitter"><i class="fab fa-twitter"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="instagram hb-xs-margin" href="https://www.instagram.com/rmcpapc/" target="_blank" rel="noopener noreferrer">
+                                        <span class="hb hb-xs spin hb-instagram"><i class="fab fa-instagram"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="googleplus hb-xs-margin" href="https://g.co/kgs/SXpuK84" target="_blank" rel="noopener noreferrer">
+                                        <span class="hb hb-xs spin hb-google-plus"><i class="fab fa-google-plus-g"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="linkedin hb-xs-margin" href="https://www.linkedin.com/company/1629667/" target="_blank" rel="noopener noreferrer">
+                                        <span class="hb hb-xs spin hb-linkedin"><i class="fab fa-linkedin"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6" style="padding-left:80px">
+                            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                            <!--headin5_amrc-->
+                            <ul class="footer_ul_amrc">
+                                <li><a href="@Url.Action("Index", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Home</a></li>
+                                <li><a href="@Url.Action("About", "Home")"><i class="fas fa-long-arrow-alt-right"></i> About Us</a></li>
+                                <li><a href="@Url.Action("Services", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Our Services</a></li>
+                                <li><a href="@Url.Action("Blog", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Insight</a></li>
+                                <li><a href="@Url.Action("Contact", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Contact</a></li>
+                                <li><a href="@Url.Action("Form", "Home")"><i class="fas fa-long-arrow-alt-right"></i> Form</a></li>
+                                <li><a href="@Url.Action("Index", "Login")"><i class="fas fa-long-arrow-alt-right"></i> Login</a></li>
+                            </ul>
+    
+                            <!--footer_ul_amrc ends here-->
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col">
+                            <h5 class="headin5_amrc col_white_amrc pt2">Get In Touch</h5>
+                            <!--headin5_amrc ends here-->
+                            
+                            <!-- Address section for Mississauga Office -->
+                            <p>
+                                <strong>Mississauga Office:</strong><br>
+                                5805 Whittle Road, Unit # 112,<br>
+                                Mississauga ON L4Z 2J1<br>
+                                TEL: +1 905-815-8442
+                            </p>
+                            <!-- Address section for Oakville Office -->
+                            <p>
+                                <strong>Oakville Office:</strong><br>
+                                13-250 Wyecroft Road, Oakville<br>
+                                ON Canada L6K 3T7<br>
+                                TEL: +1 905 849 7452
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <br /><br />
+                            <h4 style="text-align: center; padding-bottom: 20px; color: white;">OUR CERTIFICATIONS</h4>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <!-- QuickBooks Certification -->
+                                <div class="certification-box" style="flex: 1; margin-right: 10px; text-align: center;">
+                                    <img src="../Content/Website-Content/images/Quickbooks.png" alt="QuickBooks" style="width: 60px; height: auto; border-radius: 8px;">
+                                    <p style="margin-top: 10px; font-weight: normal;">QuickBooks</p>
+                                </div>
+    
+                                <!-- CPA Ontario Certification with Emphasis -->
+                                <div class="certification-box" style="flex: 1; margin-right: 10px; text-align: center;">
+                                    <br />
+                                    <img src="../Content/Website-Content/images/CPA_Ontario.png" alt="CPA Ontario" style="width: 100%; height: auto; border-radius: 8px; border: 3px solid #2CB5E5;">
+                                    <p style="margin-top: 10px; font-weight: bold; color: #2CB5E5;">CPA Ontario</p>
+                                </div>
+    
+                                <!-- CPA Alberta Certification -->
+                                <div class="certification-box" style="flex: 1; text-align: center;">
+                                    <br />
+                                    <img src="../Content/Website-Content/images/CPA_Alberta.png" alt="CPA Alberta" style="width: 100%; height: auto; border-radius: 8px;">
+                                    <p style="margin-top: 10px; font-weight: normal;">CPA Alberta</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <p class="copyright text-center">
+                        All Rights Reserved. &copy; 2024 <a href="#">JKC Solutions</a> Design By :
+                        <a href="https://html.design/">html design</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <!-- Bootstrap core JavaScript -->
+        <script src="../Content/Website-Content/vendor/jquery/jquery.min.js"></script>
+        <script src="../Content/Website-Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../Content/Website-Content/js/jquery.appear.js"></script>
+        <script src="../Content/Website-Content/js/owl.carousel.min.js"></script>
+        <script src="../Content/Website-Content/js/script.js"></script>
+    </body>
+    
+</html>
